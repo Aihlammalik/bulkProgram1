@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <title>assignment # 15</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="anchortagDiv">
+            <a href="./index.html">Conditions</a>
+            <a href="./string.html">String</a>
+            <a href="./array.html">Array</a>
+            <a href="./ml.html">Math & loop Programs</a>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <!--Conditions-->
+                <!--Condition 1 (program to find maximum b/w 2 num)-->
+                <h1>Maximum between two Numbers</h1>
+                <label for="condition1"><b>Enter Numbers to compare :</b></label><br>
+                <p id="outputMax"></p>
+                <input type="number" id="inputMax1"><br>
+                <input type="number" id="inputMax2"><br>
+                <button onclick="maximumNum()">Enter</button>
+
+                <!--Condition 4 (program to check rather a number is divisible to 5 and 11)-->
+                <h1>Check number is divisible to 5 and 11</h1>
+                <label for="condition4"><b>Enter Number to check is divisible:</b></label><br>
+                <p id="outputDivi"></p>
+                <input type="number" id="inputDivi"><br>
+
+                <button onclick="divisible()">Enter</button>
+
+                <!--Condition 7 (program to check rather a character is alphabet or not)-->
+                <h1>Check character is alphabet or not</h1>
+                <label for="condition7"><b>Enter character to check is alphabet:</b></label><br>
+                <p id="outputAlpha"></p>
+                <input type="text" id="inputAlpha"><br>
+
+                <button onclick="checkAlphabet()">Enter</button><br>
+
+
+            </div>
+            <div class="col-4">
+                <h1 class="headings">Condition program</h1>
+
+                <!--Condition 2 (program to find maximum b/w 3 num)-->
+                <h1>Maximum between 3 Numbers</h1>
+                <label for="condition2"><b>Enter Numbers to compare :</b></label><br>
+                <p id="outputMaxi"></p>
+                <input type="number" id="inputMaxi1"><br>
+                <input type="number" id="inputMaxi2"><br>
+                <input type="number" id="inputMaxi3"><br>
+
+                <button onclick="maximumNumbers()">Enter</button>
+
+                <!--Condition 5 (program to check rather a number is even or odd)-->
+                <h1>Check number is even or odd</h1>
+                <label for="condition4"><b>Enter Number to check its even or odd:</b></label><br>
+                <p id="outputEven"></p>
+                <input type="number" id="inputEven"><br>
+
+                <button onclick="evenOdd()">Enter</button>
+                <!--condition 8  (program to check a character is vowel or consonant)-->
+                <h1>Check character is vowel or consonant</h1>
+                <label for="condition4"><b>Enter character:</b></label><br>
+                <p id="outputVowel"></p>
+                <input type="text" id="inputVowel"><br>
+
+                <button onclick="vowelCheck()">Enter</button>
+
+
+            </div>
+            <div class="col-4">
+                <!--Condition 3 (program to check rather a number is negative,positive or zero)-->
+                <h1>Check Nature of a number</h1>
+                <label for="condition3"><b>Enter Number to check:</b></label><br>
+                <p id="outputNature"></p>
+                <input type="number" id="inputNature"><br>
+
+                <button onclick="natureChecker()">Enter</button>
+
+
+
+                <!--Condition 6 (program to check rather a year is leap year or not)-->
+                <h1>Check Year is leap or not</h1>
+                <label for="condition6"><b>Enter year:</b></label><br>
+                <p id="outputYear"></p>
+                <input type="number" id="inputYear"><br>
+
+                <button onclick="checkLeapYear()">Enter</button>
+
+                <!--Condition 9 (program to check rather a character is Alphabet,Number or Special character)-->
+                <h1>Check character is Alphabet,Number or Special character</h1>
+                <label for="condition6"><b>Enter Character:</b></label><br>
+                <p id="outputCharacter"></p>
+                <input type="text" id="inputCharacter"><br>
+
+                <button onclick="CheckCharacter()">Enter</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
